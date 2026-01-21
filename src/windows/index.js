@@ -1,0 +1,8 @@
+import Terminal from '#windows/Terminal.jsx'
+import Safari from "#windows/Safari.jsx";
+import Finder from "#windows/Finder.jsx";
+import Text from "#windows/Text.jsx";
+import ImageWindowContent from "#windows/Image.jsx"
+import Contact from "#windows/Contact.jsx"
+import Photos from "#windows/Photos.jsx"
+export { Terminal, Safari, Finder, Text, ImageWindowContent, Contact, Photos }
