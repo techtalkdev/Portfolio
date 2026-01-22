@@ -201,67 +201,164 @@ const navLinks = [
     gallery,
   };
   
-  const WORK_LOCATION = {
-    id: 1,
-    type: "work",
-    name: "Work",
-    icon: "/icons/work.svg",
-    kind: "folder",
-    children: [
-      // ▶ Project 1
-      {
-        id: 5,
-        name: "",
-        icon: "/images/folder.png",
-        kind: "folder",
-        position: "top-10 left-5", // icon position inside Finder
-        windowPosition: "top-[5vh] left-5", // optional: Finder window position
-        children: [
-          {
-            id: 1,
-            name: "Nike Project.txt",
-            icon: "/images/txt.png",
-            kind: "file",
-            fileType: "txt",
-            position: "top-5 left-10",
-            description: [
-              "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-              "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-              "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-              "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-            ],
-          },
-          {
-            id: 2,
-            name: "nike.com",
-            icon: "/images/safari.png",
-            kind: "file",
-            fileType: "url",
-            href: "",
-            position: "top-10 right-20",
-          },
-          {
-            id: 4,
-            name: "nike.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 right-80",
-            imageUrl: "/images/project-1.png",
-          },
-          {
-            id: 5,
-            name: "Design.fig",
-            icon: "/images/plain.png",
-            kind: "file",
-            fileType: "fig",
-            href: "https://google.com",
-            position: "top-60 right-20",
-          },
-        ],
-      },
-    ],
-  };
+const WORK_LOCATION = {
+  id: 1,
+  type: "work",
+  name: "Work",
+  icon: "/icons/work.svg",
+  kind: "folder",
+  children: [
+    // ▶ Project 1
+    {
+      id: 5,
+      name: "Cocktail bar website",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-5", // icon position inside Finder
+      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      children: [
+        {
+          id: 1,
+          name: "Cocktail website.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "The Velvet Pour website is a refined and visually striking experience inspired by the atmosphere of a high-end cocktail bar.",
+            "Rather than just presenting information, it draws visitors in with elegant visuals, smooth transitions, and a carefully crafted layout.",
+            "Think of it as a digital tasting experience, designed to evoke mood, style, and the art behind every pour.",
+            "Every detail is intentional, creating a seamless and immersive website that feels premium, inviting, and memorable.",
+          ],
+        },
+        {
+          id: 2,
+          name: "velvetpour.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://velvetpour-nine.vercel.app/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "velvetpour.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-1.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://www.figma.com/design/HxW7WvqpVVNdDIUKgo0aaw/Cocktail-GSAP-design?node-id=0-1&p=f&t=pXiNfFcKHiUfwplD-0",
+          position: "top-60 right-20",
+        },
+      ],
+    },
+
+    // ▶ Project 2
+    {
+      id: 6,
+      name: "Project 2",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-52 right-80",
+      windowPosition: "top-[20vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "Project 2.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [],
+        },
+        {
+          id: 2,
+          name: "project2.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "project2.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/images/project-2.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "",
+          position: "top-60 left-5",
+        },
+      ],
+    },
+
+    // ▶ Project 3
+    {
+      id: 7,
+      name: "project 3",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-80",
+      windowPosition: "top-[33vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "project3.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [],
+        },
+        {
+          id: 2,
+          name: "project3.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "project3.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-3.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "",
+          position: "top-60 right-20",
+        },
+      ],
+    },
+  ],
+};
+
   
   const ABOUT_LOCATION = {
     id: 2,
