@@ -211,7 +211,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Cocktail bar website",
+      name: "Velvet Pour",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -219,7 +219,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Cocktail website.txt",
+          name: "velvetpour.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -264,7 +264,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "Project 2",
+      name: "Sideline supply",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -272,30 +272,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Project 2.txt",
+          name: "sidelinesupply.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
-          description: [],
+          description: [
+            "The Sideline Supply SA website is a dynamic and sport-driven digital storefront that celebrates football and rugby culture with premium jerseys and fan gear.",
+            "Rather than simply listing products, it draws fans in with bold visuals, clear categorisation by leagues and teams, and an engaging layout that makes browsing exciting and effortless.",
+            "Imagine a virtual jersey shop where every scroll feels like gearing up for match day, vibrant imagery, organised collections, and compelling calls to action bring the passion of sport online.",
+            "Every detail is intentional, creating a seamless and immersive shopping experience that feels energetic, trustworthy, and ready to convert fans into loyal customers.",
+          ],
         },
         {
           id: 2,
-          name: "project2.com",
+          name: "sidelinesupply.co.za",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "",
+          href: "https://sidelinesupply.co.za/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "project2.png",
+          name: "sidelinesupply.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/sidelinesupply.png",
         },
         {
           id: 5,
@@ -303,7 +308,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "",
+          href: "https://sidelinesupply.co.za/",
           position: "top-60 left-5",
         },
       ],
@@ -312,7 +317,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "project 3",
+      name: "stmsport",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -320,30 +325,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "project3.txt",
+          name: "stmsport.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
-          description: [],
+          description: [
+            "The STM Sport website is a high-performance and cleanly designed online shop focused on cycling and endurance gear that keeps athletes fuelled, protected, and ready to perform.",
+            "Rather than just listing products, it draws visitors in with clear sections for performance nutrition, chafe protection, hydration, eyewear, and recovery essentials, all presented with crisp visuals and easy navigation.",
+            "Think of it as a digital training companion: every scroll feels like stepping into a well-stocked cycling pro's kit bag, with thoughtful categorisation and product imagery that speaks to serious training and long rides.",
+            "Every detail is intentional, creating a seamless and immersive shopping experience that feels focused, energetic, and built for athletes looking to push their limits.",
+          ],
         },
         {
           id: 2,
-          name: "project3.com",
+          name: "stmsport.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "",
+          href: "https://stmsport.co.za/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "project3.png",
+          name: "stmsport.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/stmsport.png",
         },
         {
           id: 5,
@@ -351,7 +361,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "",
+          href: "https://stmsport.co.za/",
           position: "top-60 right-20",
         },
       ],
